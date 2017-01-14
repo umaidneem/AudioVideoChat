@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C939D571E2A9159002B00A0 /* QMSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C939D561E2A9159002B00A0 /* QMSoundManager.m */; };
+		7C9868881E2A673600A45943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9868871E2A673600A45943 /* main.m */; };
+		7C98688B1E2A673600A45943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C98688A1E2A673600A45943 /* AppDelegate.m */; };
+		7C9868911E2A673600A45943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C98688F1E2A673600A45943 /* Main.storyboard */; };
+		7C9868931E2A673600A45943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9868921E2A673600A45943 /* Assets.xcassets */; };
+		7C9868961E2A673600A45943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C9868941E2A673600A45943 /* LaunchScreen.storyboard */; };
+		7C9868A01E2A68B800A45943 /* UserListingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C98689F1E2A68B800A45943 /* UserListingTableViewController.m */; };
+		7C9868A51E2A69C300A45943 /* QuickbloxWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868A31E2A69C300A45943 /* QuickbloxWebRTC.framework */; };
+		7C9868A81E2A6A0700A45943 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868A71E2A6A0700A45943 /* libicucore.tbd */; };
+		7C9868AA1E2A6A0F00A45943 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868A91E2A6A0F00A45943 /* libc++.tbd */; };
+		7C9868AC1E2A6A1600A45943 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868AB1E2A6A1600A45943 /* libresolv.tbd */; };
+		7C9868AE1E2A6A1E00A45943 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868AD1E2A6A1E00A45943 /* libxml2.tbd */; };
+		7C9868B01E2A6A2900A45943 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868AF1E2A6A2900A45943 /* libz.tbd */; };
+		7C9868B21E2A6A2E00A45943 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868B11E2A6A2E00A45943 /* CFNetwork.framework */; };
+		7C9868B41E2A6A3500A45943 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868B31E2A6A3500A45943 /* GLKit.framework */; };
+		7C9868B61E2A6A3B00A45943 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868B51E2A6A3B00A45943 /* MobileCoreServices.framework */; };
+		7C9868B81E2A6A4500A45943 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868B71E2A6A4500A45943 /* SystemConfiguration.framework */; };
+		7C9868BA1E2A6A4B00A45943 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868B91E2A6A4B00A45943 /* VideoToolbox.framework */; };
+		7C9868BC1E2A6A5200A45943 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868BB1E2A6A5200A45943 /* Accelerate.framework */; };
+		7C9868BD1E2A6D0600A45943 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868A21E2A69C300A45943 /* Quickblox.framework */; };
+		7C9868BE1E2A6D0600A45943 /* Quickblox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C9868A21E2A69C300A45943 /* Quickblox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C9868C21E2A7F7F00A45943 /* DialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9868C11E2A7F7F00A45943 /* DialViewController.m */; };
+		A176B9B31E2A9B8A0054691F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A176B9B21E2A9B8A0054691F /* AudioToolbox.framework */; };
+		A176B9B51E2A9BB60054691F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A176B9B41E2A9BB60054691F /* AVFoundation.framework */; };
+		A176B9B71E2A9BC90054691F /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A176B9B61E2A9BC90054691F /* AVKit.framework */; };
+		A176B9B91E2A9C470054691F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A176B9B81E2A9C470054691F /* CoreAudio.framework */; };
+		A176B9BB1E2A9C4F0054691F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A176B9BA1E2A9C4F0054691F /* CoreFoundation.framework */; };
+		A176B9C21E2AA5B40054691F /* busy.wav in Resources */ = {isa = PBXBuildFile; fileRef = A176B9BE1E2AA5B40054691F /* busy.wav */; };
+		A176B9C31E2AA5B40054691F /* calling.wav in Resources */ = {isa = PBXBuildFile; fileRef = A176B9BF1E2AA5B40054691F /* calling.wav */; };
+		A176B9C41E2AA5B40054691F /* end_of_call.wav in Resources */ = {isa = PBXBuildFile; fileRef = A176B9C01E2AA5B40054691F /* end_of_call.wav */; };
+		A176B9C51E2AA5B40054691F /* ringtone.wav in Resources */ = {isa = PBXBuildFile; fileRef = A176B9C11E2AA5B40054691F /* ringtone.wav */; };
+		A176B9CC1E2ABBF30054691F /* QBCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A176B9C81E2ABBF30054691F /* QBCore.m */; };
+		A176B9CD1E2ABBF30054691F /* QBProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = A176B9CB1E2ABBF30054691F /* QBProfile.m */; };
+		A176B9D11E2ABEE40054691F /* QBAVCallPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = A176B9D01E2ABEE40054691F /* QBAVCallPermissions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C9868BF1E2A6D0600A45943 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7C9868BE1E2A6D0600A45943 /* Quickblox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C939D551E2A9159002B00A0 /* QMSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMSoundManager.h; sourceTree = "<group>"; };
+		7C939D561E2A9159002B00A0 /* QMSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMSoundManager.m; sourceTree = "<group>"; };
+		7C9868831E2A673600A45943 /* AudioVideoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioVideoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9868871E2A673600A45943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C9868891E2A673600A45943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C98688A1E2A673600A45943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C9868901E2A673600A45943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C9868921E2A673600A45943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C9868951E2A673600A45943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C9868971E2A673600A45943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C98689E1E2A68B800A45943 /* UserListingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserListingTableViewController.h; sourceTree = "<group>"; };
+		7C98689F1E2A68B800A45943 /* UserListingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserListingTableViewController.m; sourceTree = "<group>"; };
+		7C9868A21E2A69C300A45943 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
+		7C9868A31E2A69C300A45943 /* QuickbloxWebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickbloxWebRTC.framework; sourceTree = "<group>"; };
+		7C9868A71E2A6A0700A45943 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		7C9868A91E2A6A0F00A45943 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7C9868AB1E2A6A1600A45943 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		7C9868AD1E2A6A1E00A45943 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		7C9868AF1E2A6A2900A45943 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7C9868B11E2A6A2E00A45943 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7C9868B31E2A6A3500A45943 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7C9868B51E2A6A3B00A45943 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7C9868B71E2A6A4500A45943 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7C9868B91E2A6A4B00A45943 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		7C9868BB1E2A6A5200A45943 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7C9868C01E2A7F7F00A45943 /* DialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialViewController.h; sourceTree = "<group>"; };
+		7C9868C11E2A7F7F00A45943 /* DialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialViewController.m; sourceTree = "<group>"; };
+		A176B9B21E2A9B8A0054691F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A176B9B41E2A9BB60054691F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A176B9B61E2A9BC90054691F /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A176B9B81E2A9C470054691F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A176B9BA1E2A9C4F0054691F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A176B9BE1E2AA5B40054691F /* busy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = busy.wav; sourceTree = "<group>"; };
+		A176B9BF1E2AA5B40054691F /* calling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = calling.wav; sourceTree = "<group>"; };
+		A176B9C01E2AA5B40054691F /* end_of_call.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = end_of_call.wav; sourceTree = "<group>"; };
+		A176B9C11E2AA5B40054691F /* ringtone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringtone.wav; sourceTree = "<group>"; };
+		A176B9C71E2ABBF30054691F /* QBCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBCore.h; sourceTree = "<group>"; };
+		A176B9C81E2ABBF30054691F /* QBCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBCore.m; sourceTree = "<group>"; };
+		A176B9CA1E2ABBF30054691F /* QBProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBProfile.h; sourceTree = "<group>"; };
+		A176B9CB1E2ABBF30054691F /* QBProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBProfile.m; sourceTree = "<group>"; };
+		A176B9CF1E2ABEE40054691F /* QBAVCallPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAVCallPermissions.h; sourceTree = "<group>"; };
+		A176B9D01E2ABEE40054691F /* QBAVCallPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAVCallPermissions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C9868801E2A673600A45943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A176B9BB1E2A9C4F0054691F /* CoreFoundation.framework in Frameworks */,
+				A176B9B91E2A9C470054691F /* CoreAudio.framework in Frameworks */,
+				A176B9B71E2A9BC90054691F /* AVKit.framework in Frameworks */,
+				A176B9B51E2A9BB60054691F /* AVFoundation.framework in Frameworks */,
+				A176B9B31E2A9B8A0054691F /* AudioToolbox.framework in Frameworks */,
+				7C9868BC1E2A6A5200A45943 /* Accelerate.framework in Frameworks */,
+				7C9868BA1E2A6A4B00A45943 /* VideoToolbox.framework in Frameworks */,
+				7C9868B81E2A6A4500A45943 /* SystemConfiguration.framework in Frameworks */,
+				7C9868B61E2A6A3B00A45943 /* MobileCoreServices.framework in Frameworks */,
+				7C9868B41E2A6A3500A45943 /* GLKit.framework in Frameworks */,
+				7C9868B21E2A6A2E00A45943 /* CFNetwork.framework in Frameworks */,
+				7C9868B01E2A6A2900A45943 /* libz.tbd in Frameworks */,
+				7C9868AE1E2A6A1E00A45943 /* libxml2.tbd in Frameworks */,
+				7C9868AC1E2A6A1600A45943 /* libresolv.tbd in Frameworks */,
+				7C9868AA1E2A6A0F00A45943 /* libc++.tbd in Frameworks */,
+				7C9868BD1E2A6D0600A45943 /* Quickblox.framework in Frameworks */,
+				7C9868A81E2A6A0700A45943 /* libicucore.tbd in Frameworks */,
+				7C9868A51E2A69C300A45943 /* QuickbloxWebRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C98687A1E2A673600A45943 = {
+			isa = PBXGroup;
+			children = (
+				7C9868851E2A673600A45943 /* AudioVideoChat */,
+				7C9868841E2A673600A45943 /* Products */,
+				7C9868A61E2A6A0700A45943 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C9868841E2A673600A45943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C9868831E2A673600A45943 /* AudioVideoChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C9868851E2A673600A45943 /* AudioVideoChat */ = {
+			isa = PBXGroup;
+			children = (
+				A176B9CE1E2ABEE40054691F /* AVPermisions */,
+				A176B9C61E2ABBF30054691F /* Core */,
+				A176B9BC1E2AA5920054691F /* Resources */,
+				7C9868A11E2A69A000A45943 /* Frameworks */,
+				7C98689D1E2A689700A45943 /* ViewControllers */,
+				7C9868891E2A673600A45943 /* AppDelegate.h */,
+				7C98688A1E2A673600A45943 /* AppDelegate.m */,
+				7C939D551E2A9159002B00A0 /* QMSoundManager.h */,
+				7C939D561E2A9159002B00A0 /* QMSoundManager.m */,
+				7C98688F1E2A673600A45943 /* Main.storyboard */,
+				7C9868921E2A673600A45943 /* Assets.xcassets */,
+				7C9868941E2A673600A45943 /* LaunchScreen.storyboard */,
+				7C9868971E2A673600A45943 /* Info.plist */,
+				7C9868861E2A673600A45943 /* Supporting Files */,
+			);
+			path = AudioVideoChat;
+			sourceTree = "<group>";
+		};
+		7C9868861E2A673600A45943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9868871E2A673600A45943 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C98689D1E2A689700A45943 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C98689E1E2A68B800A45943 /* UserListingTableViewController.h */,
+				7C98689F1E2A68B800A45943 /* UserListingTableViewController.m */,
+				7C9868C01E2A7F7F00A45943 /* DialViewController.h */,
+				7C9868C11E2A7F7F00A45943 /* DialViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7C9868A11E2A69A000A45943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C9868A21E2A69C300A45943 /* Quickblox.framework */,
+				7C9868A31E2A69C300A45943 /* QuickbloxWebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C9868A61E2A6A0700A45943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A176B9BA1E2A9C4F0054691F /* CoreFoundation.framework */,
+				A176B9B81E2A9C470054691F /* CoreAudio.framework */,
+				A176B9B61E2A9BC90054691F /* AVKit.framework */,
+				A176B9B41E2A9BB60054691F /* AVFoundation.framework */,
+				A176B9B21E2A9B8A0054691F /* AudioToolbox.framework */,
+				7C9868BB1E2A6A5200A45943 /* Accelerate.framework */,
+				7C9868B91E2A6A4B00A45943 /* VideoToolbox.framework */,
+				7C9868B71E2A6A4500A45943 /* SystemConfiguration.framework */,
+				7C9868B51E2A6A3B00A45943 /* MobileCoreServices.framework */,
+				7C9868B31E2A6A3500A45943 /* GLKit.framework */,
+				7C9868B11E2A6A2E00A45943 /* CFNetwork.framework */,
+				7C9868AF1E2A6A2900A45943 /* libz.tbd */,
+				7C9868AD1E2A6A1E00A45943 /* libxml2.tbd */,
+				7C9868AB1E2A6A1600A45943 /* libresolv.tbd */,
+				7C9868A91E2A6A0F00A45943 /* libc++.tbd */,
+				7C9868A71E2A6A0700A45943 /* libicucore.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A176B9BC1E2AA5920054691F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A176B9BD1E2AA5B40054691F /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A176B9BD1E2AA5B40054691F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A176B9BE1E2AA5B40054691F /* busy.wav */,
+				A176B9BF1E2AA5B40054691F /* calling.wav */,
+				A176B9C01E2AA5B40054691F /* end_of_call.wav */,
+				A176B9C11E2AA5B40054691F /* ringtone.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A176B9C61E2ABBF30054691F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A176B9C71E2ABBF30054691F /* QBCore.h */,
+				A176B9C81E2ABBF30054691F /* QBCore.m */,
+				A176B9C91E2ABBF30054691F /* UserPorfile */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A176B9C91E2ABBF30054691F /* UserPorfile */ = {
+			isa = PBXGroup;
+			children = (
+				A176B9CA1E2ABBF30054691F /* QBProfile.h */,
+				A176B9CB1E2ABBF30054691F /* QBProfile.m */,
+			);
+			path = UserPorfile;
+			sourceTree = "<group>";
+		};
+		A176B9CE1E2ABEE40054691F /* AVPermisions */ = {
+			isa = PBXGroup;
+			children = (
+				A176B9CF1E2ABEE40054691F /* QBAVCallPermissions.h */,
+				A176B9D01E2ABEE40054691F /* QBAVCallPermissions.m */,
+			);
+			path = AVPermisions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C9868821E2A673600A45943 /* AudioVideoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C98689A1E2A673600A45943 /* Build configuration list for PBXNativeTarget "AudioVideoChat" */;
+			buildPhases = (
+				7C98687F1E2A673600A45943 /* Sources */,
+				7C9868801E2A673600A45943 /* Frameworks */,
+				7C9868811E2A673600A45943 /* Resources */,
+				7C9868BF1E2A6D0600A45943 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioVideoChat;
+			productName = AudioVideoChat;
+			productReference = 7C9868831E2A673600A45943 /* AudioVideoChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C98687B1E2A673600A45943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ehsan Saddique";
+				TargetAttributes = {
+					7C9868821E2A673600A45943 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8GZ7C3J237;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7C98687E1E2A673600A45943 /* Build configuration list for PBXProject "AudioVideoChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C98687A1E2A673600A45943;
+			productRefGroup = 7C9868841E2A673600A45943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C9868821E2A673600A45943 /* AudioVideoChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C9868811E2A673600A45943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A176B9C31E2AA5B40054691F /* calling.wav in Resources */,
+				A176B9C51E2AA5B40054691F /* ringtone.wav in Resources */,
+				7C9868961E2A673600A45943 /* LaunchScreen.storyboard in Resources */,
+				7C9868931E2A673600A45943 /* Assets.xcassets in Resources */,
+				7C9868911E2A673600A45943 /* Main.storyboard in Resources */,
+				A176B9C21E2AA5B40054691F /* busy.wav in Resources */,
+				A176B9C41E2AA5B40054691F /* end_of_call.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C98687F1E2A673600A45943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9868C21E2A7F7F00A45943 /* DialViewController.m in Sources */,
+				7C939D571E2A9159002B00A0 /* QMSoundManager.m in Sources */,
+				A176B9D11E2ABEE40054691F /* QBAVCallPermissions.m in Sources */,
+				7C98688B1E2A673600A45943 /* AppDelegate.m in Sources */,
+				A176B9CC1E2ABBF30054691F /* QBCore.m in Sources */,
+				7C9868A01E2A68B800A45943 /* UserListingTableViewController.m in Sources */,
+				A176B9CD1E2ABBF30054691F /* QBProfile.m in Sources */,
+				7C9868881E2A673600A45943 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C98688F1E2A673600A45943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9868901E2A673600A45943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C9868941E2A673600A45943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C9868951E2A673600A45943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C9868981E2A673600A45943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Sosinski (DUDHV5753F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: George Sosinski (DUDHV5753F)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C9868991E2A673600A45943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Sosinski (DUDHV5753F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: George Sosinski (DUDHV5753F)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C98689B1E2A673600A45943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Sosinski (DUDHV5753F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8GZ7C3J237;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioVideoChat",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = AudioVideoChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhcollator.AudioVideoChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		7C98689C1E2A673600A45943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: George Sosinski (DUDHV5753F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8GZ7C3J237;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioVideoChat",
+				);
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = AudioVideoChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhcollator.AudioVideoChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C98687E1E2A673600A45943 /* Build configuration list for PBXProject "AudioVideoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C9868981E2A673600A45943 /* Debug */,
+				7C9868991E2A673600A45943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C98689A1E2A673600A45943 /* Build configuration list for PBXNativeTarget "AudioVideoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C98689B1E2A673600A45943 /* Debug */,
+				7C98689C1E2A673600A45943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C98687B1E2A673600A45943 /* Project object */;
+}
